@@ -1,0 +1,19 @@
+<%- include("header.ejs") %>
+<div class="guild-title text-center">
+    <img class="guildIcon" src="<%-guild.iconURL({size: 64})-%>">
+    <h4><%-guild.name%></h4>
+</div>
+<div class="container main text-center">
+    <button href="#" onclick="history.go(-1)">
+    back
+  </button>
+  Misc Category here
+</div>
+<% if(typeof msg !== "undefined"){ %>
+    <script>
+        window.onload = (e) => {
+            swal("Success", "Guild settings successfully saved.", "<%-msg%>");
+        };
+    </script>
+<%  } %>
+<%- include("footer.ejs") %>

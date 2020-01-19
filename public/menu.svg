@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="11px" height="7px" viewBox="0 0 11 7" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>switcher</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="header" transform="translate(-1275.000000, -41.000000)" fill="#FFFFFF">
+            <g id="Group-3" transform="translate(1151.000000, 22.000000)">
+                <path d="M124.172823,19.7967723 C123.83576,19.3567271 124.006153,19 124.558414,19 L134.247416,19 C134.797435,19 134.963005,19.3491139 134.61487,19.7827005 L129.893835,25.6625512 C129.546755,26.0948247 128.99033,26.0861517 128.655084,25.6484793 L124.172823,19.7967723 Z" id="switcher"></path>
+            </g>
+        </g>
+    </g>
+</svg>

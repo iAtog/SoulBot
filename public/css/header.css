@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600i,700');
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    background-color: #36393f;
+}
+
+.user-nav{
+    position: relative;
+    display: inline-block;
+}
+
+.nav{
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    background-color: #202225;
+    font-size: 1.7rem;
+    padding: 5px 5px;
+    box-shadow: 0px 3px 5px 1px rgba(0, 0, 0, .2);
+}
+
+.nav ul, .nav div{
+    margin: 0 5px;
+    padding: 10px
+}
+
+.nav div{
+    display: inline;
+}
+
+.nav ul{
+    display: inline;
+    list-style: none;
+}
+
+.nav ul li{
+    display: inline;
+    margin: 0 10px;
+}
+
+.nav ul li a{
+    color: white;
+    text-decoration: none;
+    /* transition: color linear .1s; */
+}
+
+.nav ul li a:hover{
+    color: rgb(216, 216, 216);
+    text-decoration: none;
+}
+
+#user-menu{
+    background: #fff;
+    -webkit-box-shadow: 0 1px 3px #000;
+    box-shadow: 0 1px 3px #000;
+    border-radius: 4px;
+    position: absolute;
+    min-width: 150px;
+    right: -20px;
+    top: 50px;
+    transition: transform .2s, opacity .2s;
+    font-size: .9em;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(-15px);
+}
+
+#user-menu span{
+    vertical-align: middle;
+}
+
+#user-menu li{
+    display: block;
+}
+
+#user-menu li:hover{
+    opacity: .85;
+}
+
+#user-menu li a{
+    color: #36393f;
+    transition: none;
+}
+
+.menu-toggle{
+    height: 8px;    
+    width: 8px;
+}
+
+#title{
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+#title a{
+    color: white;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+#title img{
+    height: 32px;
+    width: 32px;
+    margin: auto;
+    margin-right: 10px;
+    background-image: url("../assets/pic.jpg");
+    background-position: bottom;
+    background-size: 256px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.user img{
+    padding: 0 10px;
+    vertical-align: middle;
+    border-radius: 50%;
+}
+.user a{
+    vertical-align: middle;
+}
+
+.login{
+    padding: 5px 15px;
+    color: #7289da;
+    border: 2px solid #7289da;
+    border-radius: 20px;
+    transition: background-color linear .2s;
+    text-decoration: none;
+}
+
+.login:hover{
+    color: white;
+    background-color: #7289da;
+}
+
+/* TODO Nav Mobile */
+@media only screen and (max-width: 760px) {
+    
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #202225;
+    width: 100%;
+}
+
+.footer span{
+    font-style: italic;
+    font-weight: bold;
+    font-size: .9em;
+    vertical-align: middle;
+}
+
+.footer img{
+    height: 20px;
+    padding: 5px 0;
+    vertical-align: middle;
+}
+
+.main{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.center-x{
+    margin-left: auto;
+    margin-right: auto;
+}
+.center-y{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.text-center{
+    text-align: center;
+    vertical-align: middle;
+}
+
+.user-nav:hover #user-menu{
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.click{
+    cursor: pointer;
+}
+
+button{
+    line-height: normal;
+}

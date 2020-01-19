@@ -1,0 +1,48 @@
+{
+  "name": "soul",
+  "version": "1.0.0",
+  "description": "",
+  "main": "web.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "canvas": "^2.6.1",
+    "canvas-constructor": "^3.1.0",
+    "commando-provider-mongo": "^1.1.1",
+    "common-tags": "^1.8.0",
+    "d3-format": "^1.4.3",
+    "discord.js": "github:discordjs/discord.js",
+    "discord.js-commando": "github:morhex/Commando",
+    "erlpack": "^0.1.3",
+    "express": "^4.17.1",
+    "ksoft.js": "^3.1.3",
+    "moment": "^2.24.0",
+    "mongodb": "^3.5.0",
+    "mongoose": "^5.8.7",
+    "node-cron": "^2.0.3",
+    "node-fetch": "^2.6.0",
+    "node-opus": "^0.3.3",
+    "simple-youtube-api": "^5.2.1",
+    "snekfetch": "^4.0.4",
+    "sqlite": "^3.0.3",
+    "uws": "^100.0.1",
+    "ytdl-core": "^1.0.6",
+    "query-string": "^6.10.1",
+    "body-parser": "^1.19.0",
+    "method-override": "^3.0.0",
+    "express-sanitizer": "^1.0.5",
+    "cookies": "^0.7.3",
+    "cookie-parser": "^1.4.4",
+    "ejs-lint": "^1.0.1",
+    "ejs": "^3.0.1",
+    "discord-oauth2": "^2.0.2",
+    "js-base64": "^2.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "author": "morhex",
+  "license": "ISC"
+}

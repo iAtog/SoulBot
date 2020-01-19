@@ -1,0 +1,20 @@
+<%- include("header.ejs") %>
+<div class="container dash text-center">
+    <ul>
+        <% guilds.forEach(guild => { %>
+            <% if(guild.owner || (guild.permissions & 0x8) == 0x8){ %>
+                <li class="tooltip">
+                    <a href="/dashboard/<%-guild.id%>">
+                        <% if(guild.icon !== null){ %>
+                        <img class="guildIcon" src="https://cdn.discordapp.com/icons/<%-guild.id%>/<%-guild.icon%>?size=2048">
+                        <% } else { %>
+                        <img class="guildIcon" src="/assets/missing.png">
+                        <% } %>
+                        <span class="tooltiptext"><%-guild.name%></span>
+                    </a>
+                </li>
+            <% } %>
+        <% }); %>
+    </ul>
+</div>
+<%- include("footer.ejs") %>

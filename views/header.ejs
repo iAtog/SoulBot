@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title><%-title%> | Soul</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="../assets/favicon.png">
+        <link href="/assets/libs/normalize.css" rel="stylesheet">
+        <link href="/assets/libs/skeleton.css" rel="stylesheet">
+        <link href="/assets/css/header.css" rel="stylesheet">
+        <link href="/assets/css/<%-css%>.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    </head>
+    <body>
+        <header class="nav">
+            <div id="title">
+                <!-- <img src="../assets/memer.png"> -->
+                <a href="/"><img src="https://soulbot.glitch.me/assets/soul.png">Soul</a>
+            </div>
+            <% if(typeof user !== "undefined"){ %>
+            <div class="user user-nav">
+                <span class="click">
+                    <img src="https://cdn.discordapp.com/avatars/<%-user.id%>/<%-user.avatar%>.png?size=32" style="vertical-align: middle;">
+                    <span><%-user.username%></span>
+                    <img src="https://soulbot.glitch.me/assets/menu.svg" class="menu-toggle" style="vertical-align: middle;">
+                </span>
+                <ul class="hidden" id="user-menu">
+                    <li><a href="/dashboard">Dashboard</a></li>
+                    <li><a href="/logout" style="color: #e80000;">Logout</a></li>
+                </ul>
+            </div>
+            <% }else{ %>
+            <div>
+                <a class="login" href="https://discordapp.com/api/oauth2/authorize?client_id=666817189310890014&redirect_uri=https%3A%2F%2Fsoulbot.me%2Flogin&response_type=code&scope=identify%20guilds">Login</a>
+            </div>
+            <% } %>
+        </header>

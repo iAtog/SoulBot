@@ -1,0 +1,119 @@
+.guildIcon{
+    border-radius: 64px;
+}
+
+.guild-title{
+    width: 100%;
+    background-color: #2C2F33;
+    padding: 15px 0;
+}
+
+.guild-title h4{
+    margin: 0 15px;
+}
+
+.guild-title h4, .guild-title img{
+    display: inline;
+    vertical-align: middle;
+}
+
+.label-body{
+    vertical-align: middle;
+}
+
+select{
+    background-color: #2C2F33;
+    border-color: #23272A;
+}
+
+.box{
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.6);
+  height: 100%;
+  max-height: 180px;
+  background-color: #3e4246;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  transition-duration: 0.2s;
+  transition-property: transform, box-shadow;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+.box span{
+  display: block;
+  font-size: 2.3rem;
+  font-weight: bold;
+}
+
+.box i{
+  margin-top: 25px;
+  font-size: 4em;
+}
+
+
+.box:hover {
+  transform: translate(0, -3px);
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.8);
+}
+
+.fill:hover {
+  color: whitesmoke;
+}
+
+.fill:before {
+  content: "";
+  position: absolute;
+  background: #2c2f33;
+  border-radius: 10px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 100%;
+  z-index: -1;
+  transition: top 0.18s ease-in;
+  -webkit-transition: top 0.18s ease-in;
+}
+
+.fill:hover:before {
+  top: 0;
+}
+
+.row a{
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+.container{
+    max-width: 1100px;
+}
+
+input {
+  color: black !important;
+  width: 100%;
+}
+
+input[type="checkbox"]{
+    margin: 0 5px;
+    vertical-align: middle;
+}
+
+form button{ 
+    line-height: normal;
+    font-size: 0.8em;
+    padding: 5px 20px;
+    margin: auto;
+    display: block;
+    color: white;
+}
+
+form button:hover{
+    border-color: #7289DA; 
+    color: #7289DA;
+}
+
+a {
+  color: white;
+}

@@ -1,0 +1,77 @@
+<%- include("header.ejs") %>
+<div class="guild-title text-center">
+    <img class="guildIcon" src="<%-guild.iconURL({size: 64})-%>">
+    <h4><%-guild.name%></h4>
+</div>
+<div class="container main text-center">
+  <div href="#" class="row">
+            <a href="/dashboard/<%-guild.id-%>/general" class="four columns box fill">
+              <i class="fas fa-info-circle"></i>
+              <span>General</span>
+              <p>Modify usage to your liking</p>
+            </a>
+    
+            <a href="/dashboard/<%-guild.id-%>/levels" class="four columns box fill">
+              <i class="fas fa-trophy"></i>
+              <span>Levels</span>
+              <p>Chat and get rewarded for it</p>
+            </a>
+    
+            <a href="/dashboard/<%-guild.id-%>/welcome" class="four columns box fill">
+              <i class="far fa-bell"></i>
+              <span>Welcome</span>
+              <p>Comfort your new server members</p>
+            </a>
+    
+    </div>
+    <div href="#" class="row">
+            <a href="/dashboard/<%-guild.id-%>/music" class="four columns box fill">
+              <i class="fas fa-volume-up"></i>
+              <span>Music</span>
+              <p>Vibe while having fun</p>
+            </a>
+            <a href="/dashboard/<%-guild.id-%>/moderation" class="four columns box fill">
+              <i class="fas fa-hammer"></i>
+              <span>Moderation</span>
+              <p>Easier server management</p>
+            </a>
+            <a href="/dashboard/<%-guild.id-%>/misc" class="four columns box fill">
+              <i class="fas fa-question-circle"></i>
+              <span>Misc</span>
+              <p>Mix things up</p>
+            </a>
+    
+<!--     for music: <i class="fas fa-volume-up"></i> -->
+    </div>
+</div>
+<% if(typeof msg !== "undefined"){ %>
+    <script>
+        window.onload = (e) => {
+            swal("Success", "Guild settings successfully saved.", "<%-msg%>");
+        };
+    </script>
+<%  } %>
+<%- include("footer.ejs") %>
+
+<!-- 
+    <form method="POST" action="/dashboard/<%-guild.id%>">
+        <div class="row">
+            <div class="four columns">
+                <h5>Prefix</h5>
+                <input type="text" name="Prefix" value="<%-settings.settings.prefix-%>">
+            </div>
+            <div class="four columns">
+                <h5>Welcome Message</h5>
+                <input type="text" name="Prefix" value="<%-settings.settings.welcomeMsg-%>">
+            </div>
+            <div class="four columns">
+                <h5>Test</h5>
+                <input type="text" name="Prefix" value="<%-settings.settings.welcomeMsg-%>">
+            </div>
+            
+        </div>
+        <div class="row">
+            <button class="login">Save</button>
+        </div>
+    </form>
+ -->

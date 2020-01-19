@@ -1,0 +1,39 @@
+.guildIcon{
+    border-radius: 64px;
+}
+
+.guild-title{
+    width: 100%;
+    background-color: #2C2F33;
+    padding: 15px 0;
+}
+
+.guild-title h4{
+    margin: 0 15px;
+}
+
+.guild-title h4, .guild-title img{
+    display: inline;
+    vertical-align: middle;
+}
+
+.label-body{
+    vertical-align: middle;
+}
+
+select{
+    background-color: #2C2F33;
+    border-color: #23272A;
+}
+
+button {
+  color: white;
+  transition: 0.3s;
+  margin: 20 auto;
+  display: block;
+}
+
+button:hover {
+  color: #7289da;
+  border-color: #7289da;
+}

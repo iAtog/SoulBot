@@ -1,0 +1,70 @@
+.value-img{
+    font-size: 900%;
+    margin-bottom: 10px;
+}
+
+.jumbo{
+    width: 100%;
+    padding: 20px 0;
+    background-color: #2f3136;
+}
+
+.jumbo .row{
+    margin: auto 20%;
+    padding: 30px 0;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.buttons{
+    margin: 50px auto;
+}
+
+.buttons a{
+    margin: auto 5px;
+}
+
+.invite, .discord{
+    padding: 10px 25px;
+    border-radius: 3px;
+    transition: background-color linear .2s;
+    text-decoration: none;
+}
+
+.invite{
+    color: #43b581;
+    border: 2px solid #43b581;
+}
+
+.discord{
+    color: #b9bbbe;
+    border: 2px solid #b9bbbe;
+}
+
+.invite:hover{
+    color: white;
+    background-color: #43b581;
+}
+
+.discord:hover{
+    color: #36393f;
+    background-color: #b9bbbe;
+}
+
+#blurb{
+    margin: auto;
+}
+
+#bot-pic{
+    /* height: 256px;
+    width: 256px; */
+    height: 128px;
+    width: 128px;
+    margin: auto;
+    margin-bottom: 30px;
+    background-image: url("../soul.png");
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+}

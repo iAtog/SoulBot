@@ -1,0 +1,13 @@
+{
+  "owner": ["647594401203224586"],
+  "loading": "<a:loading:618564680109260800>",
+  "success": "<:success:618565216237518858>",
+  "error": "<:error:618564669522706442>",
+  "defaultColor": "#48BEEC",
+  "errorColor": "#FF5042",
+  "successColor": "#2ECC71",
+  "rankUp": "<:up:643249191631454248>",
+  "invite": "https://discord.gg/pka6Kn2",
+  "youtubeapi": "AIzaSyCqLbCuQF55NQMANbUe__op75Gt9RDk-ms",
+  "db": "mongodb+srv://soul:RvENGEXYZ1@soul-rwn8i.mongodb.net/Soul?retryWrites=true&w=majority"
+}
