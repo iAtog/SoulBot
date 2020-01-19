@@ -45,10 +45,10 @@ Music:
 - clean : Clear the queue
 - join : Join to voice channel
 - leave : Leave to voice channel
-- loop : 
-- lyrics :
-- np : 
-- pause :
+- loop : Loops current song
+- lyrics : Shows lyrics.
+- np : Posts currently playing song info
+- pause : Pause a currently plagin song
 - play : Play a music
 - queue : View all music in the queue
 - remove : Remove a especific music of the queue
