@@ -43,6 +43,6 @@
   "scripts": {
     "start": "node bot.js"
   },
-  "author": "morhex",
+  "author": "atog",
   "license": "ISC"
 }
