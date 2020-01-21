@@ -78,6 +78,6 @@ You can configure the bot with commands and from the dashboard
 
 ----------------
 ### Contact me at discord
-Username: Atog.
-Discriminator: 0001
-Tag: Atog.#0001
+###### Username: Atog.
+###### Discriminator: 0001
+###### Tag: Atog.#0001
